@@ -1,111 +1,81 @@
 
 # 💪 Enhanced BMI Calculator
 
-A simple and interactive **Streamlit** web application to calculate **Body Mass Index (BMI)**, provide health tips, suggest **nutrition guidelines**, and recommend **daily workout routines**. Designed to promote a healthier lifestyle with minimal user input.
+An interactive **Streamlit** web application to calculate **Body Mass Index (BMI)**, visualize results, and provide useful health recommendations. Includes a nutrition chart and daily workout guide to promote a healthy lifestyle.
 
 ---
 
-## 🚀 Features
+## 🧠 Features
 
-### 🧮 BMI Calculator
-- Supports both **Metric (kg, cm)** and **Imperial (lbs, inches)** units.
+### 1. BMI Calculator
+- Supports **Metric (kg, cm)** and **Imperial (lbs, inches)** unit systems.
 - Calculates BMI and classifies it as:
   - Underweight
   - Normal weight
   - Overweight
   - Obese
-- Provides personalized **health tips**.
-- Includes:
-  - **BMI history tracking**
-  - **BMI category visualization**
-  - **Target BMI & weight suggestions**
-  - **Water intake recommendation**
+- Provides:
+  - Health category with recommendations
+  - Target BMI calculator with weight goal
+  - Daily water intake suggestion
+  - BMI history tracking during session
+  - Color-coded progress visualization
 
-### 🥗 Nutrition Chart
-- Displays a table of general dietary recommendations based on a **2000-calorie diet**.
-- Lists daily intake suggestions for:
-  - Carbohydrates, Proteins, Fats
-  - Fiber, Sugars, Sodium
-- Shows **healthy food sources** for each nutrient.
+### 2. Nutrition Chart
+- Displays recommended daily intake values for key nutrients:
+  - Carbohydrates, Proteins, Fats, Fiber, Sugars, Sodium
+- Suggests healthy food sources for each nutrient
 
-### 🏃 Daily Workout Guide
-- Recommends a basic **daily workout plan**:
-  - Stretching
-  - Bodyweight exercises (push-ups, squats, lunges)
-  - Cardio (walking, jogging)
-  - Core workouts (planks, crunches)
-- Includes **hydration reminders**.
+### 3. Daily Workout
+- Daily step goal
+- Basic workout plan: stretching, bodyweight exercises, cardio, core
+- Hydration reminder
 
 ---
 
 ## 📦 Tech Stack
 
-- **Python 3**
-- **[Streamlit](https://streamlit.io/)** – for building the interactive web app
-- **Matplotlib** – for BMI visualization
+- **Python**
+- **Streamlit**
+- **Matplotlib**
 
 ---
 
-## 📷 Screenshots
+## 🚀 Getting Started
 
-*(Add screenshots of your app here if available)*
+### Prerequisites
 
----
+Install Python dependencies:
 
-## 🛠️ Installation & Run Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/enhanced-bmi-calculator.git
-   cd enhanced-bmi-calculator
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install streamlit matplotlib
-   ```
-
-3. **Run the Streamlit app:**
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
-## ✨ Folder Structure
-
+```bash
+pip install streamlit matplotlib
 ```
-📦 enhanced-bmi-calculator
- ┣ 📄 app.py              # Main Streamlit app
- ┣ 📄 README.md           # Project documentation
- ┗ 📄 requirements.txt    # (Optional) Python dependencies
+
+### Run the App
+
+```bash
+streamlit run app.py
 ```
 
 ---
 
-## 💡 Future Improvements
+## 📁 File Structure
 
-- Add user login and BMI history persistence
-- Export reports as PDF
-- Integration with fitness APIs or wearables
-- Personalized diet/workout plans based on age & goals
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+```
+📦 bmi-calculator-app
+ ┣ 📄 app.py           
+ ┣ 📄 README.md        
+```
 
 ---
 
-## 🙌 Acknowledgements
+## 👨‍💻 Author
 
-Made with ❤️ using [Streamlit](https://streamlit.io/)
+- **Name**: Yugesh K.
+- **GitHub**: [techychamp](https://github.com/techychamp)
 
 ---
 
-## 📬 Contact
+## 📝 License
 
-Feel free to reach out for contributions or feedback:
-- GitHub: [yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+This project is free to use and modify for educational and personal use.
